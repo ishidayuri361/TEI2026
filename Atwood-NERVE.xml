@@ -41,7 +41,7 @@
 					interviews with writers is a departure from the norm. Previous collections have
 					mixed the genders; this one is unisexual. That the editors have chosen to bring
 					together, within the same covers, fifteen writers as diverse as <persName key="Parker, Dorothy, 1893-1967." ref="http://viaf.org/viaf/7395211" ana="webannotation:http://temp.lincsproject.ca/X9lfYjxp9Tn">Dorothy Parker</persName>
-					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/hBNHy4NfjqD">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/2o50jQpcA4d">Marianne Moore</persName> and Rebecca West, Isak Dinesen and Lillian
+					and <persName key="Gordimer, Nadine, 1923-2014." ref="http://viaf.org/viaf/86692340" ana="webannotation:http://temp.lincsproject.ca/hBNHy4NfjqD">Nadine Gordimer</persName>, <persName key="Moore, Marianne, 1887-1972." ref="http://viaf.org/viaf/61562401" ana="webannotation:http://temp.lincsproject.ca/2o50jQpcA4d">Marianne Moore</persName> and <persName key="West, Rebecca, 1892-1983" ref="http://viaf.org/viaf/108321467" ana="webannotation:http://temp.lincsproject.ca/gvasA5VAbrg">Rebecca West</persName>, Isak Dinesen and Lillian
 					Hellman, <persName key="McCarthy, Mary, 1912-1989." ref="http://viaf.org/viaf/105465037" ana="webannotation:http://temp.lincsproject.ca/STOsurUziNl">Mary McCarthy</persName> and Katherine Anne Porter, over what, in some cases,
 					would doubtless be their dead bodies, merely because they share a double-X
 					chromosome, is not due to a sudden mental aberration. Rather it has been the
@@ -1305,6 +1305,95 @@
         "type": "crm:E21_Person",
         "label": "Bowen, Elizabeth, 1899-1973.",
         "description": "Bowen, Elizabeth"
+    },
+    "P2_has_type": [
+        "oa:identifying"
+    ]
+}]]>
+				
+</rdf:Description>
+				
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/gvasA5VAbrg">
+<![CDATA[{
+    "@context": [
+        "http://www.w3.org/ns/anno.jsonld",
+        "https://www.cidoc-crm.org/cidoc-crm/json-ld_context.jsonld",
+        "https://wa.lincsproject.ca/v1/ns/anno.jsonld"
+    ],
+    "id": "http://temp.lincsproject.ca/gvasA5VAbrg",
+    "type": [
+        "Annotation",
+        "crm:E33_Linguistic_Object"
+    ],
+    "motivation": "oa:identifying",
+    "created": "2026-08-11T23:36:28.850Z",
+    "creator": {
+        "id": "https://github.com/ishidayuri361",
+        "type": "crm:E21_Person",
+        "name": "Yuri Ishida"
+    },
+    "generator": {
+        "id": "https://nerve.lincsproject.ca",
+        "type": [
+            "Software",
+            "crm:E73_Information_Object"
+        ],
+        "P16_used_specific_object": "https://nerve.lincsproject.ca",
+        "name": "NERVE",
+        "softwareVersion": "0.3.0"
+    },
+    "target": {
+        "id": "/target/ZpgvdypfSHY",
+        "type": [
+            "SpecificResource",
+            "crm:E73_Information_Object"
+        ],
+        "source": {
+            "id": "https://raw.githubusercontent.com/ishidayuri361/TEI2026/main/Atwood-NERVE.xml",
+            "type": "crm:D1_Digital_Object",
+            "format": "application/tei+xml",
+            "language": "en",
+            "P1_is_identified_by": {
+                "id": "https://raw.githubusercontent.com/ishidayuri361/TEI2026/main/Atwood-NERVE.xml/title",
+                "type": "crm:E33_E41_Linguistic_Appellation",
+                "title": "Introduction: Women Writers at Work: The Paris Review Interviews"
+            }
+        },
+        "selector": [
+            {
+                "id": "/target/ZpgvdypfSHY/selector/textPosition/TS9S0kZkGaG",
+                "type": [
+                    "TextPositionSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "start": 426,
+                "end": 438,
+                "refinedBy": {
+                    "id": "/target/ZpgvdypfSHY/selector/textQuote/7DQTHdL8gH0",
+                    "type": [
+                        "TextQuoteSelector",
+                        "crm:E33_Linguistic_Object"
+                    ],
+                    "exact": "Rebecca West",
+                    "prefix": " That the editors have chosen to bring\n\t\t\t\t\ttogether, within the same covers, fifteen writers as diverse as Dorothy Parker\n\t\t\t\t\tand Nadine Gordimer, Marianne Moore and",
+                    "suffix": " Isak Dinesen and Lillian\n\t\t\t\t\tHellman, Mary McCarthy and Katherine Anne Porter, over what, in some cases,\n\t\t\t\t\twould doubtless be their dead bodies, merely because they share a double-X\n\t\t\t\t\tchromosome, is not due to a sudden mental aberration"
+                }
+            },
+            {
+                "id": "/target/ZpgvdypfSHY/selector/css/NKfhYRKU1HA",
+                "type": [
+                    "CssSelector",
+                    "crm:E73_Information_Object"
+                ],
+                "value": "[ana~=webannotation:http://temp.lincsproject.ca/gvasA5VAbrg]"
+            }
+        ]
+    },
+    "body": {
+        "id": "http://viaf.org/viaf/108321467",
+        "type": "crm:E21_Person",
+        "label": "West, Rebecca, 1892-1983",
+        "description": "West, Rebbeca, pseud."
     },
     "P2_has_type": [
         "oa:identifying"
